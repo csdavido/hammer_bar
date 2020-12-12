@@ -38,6 +38,6 @@ public class Player : MonoBehaviour
         {
             animator.SetFloat("Horizontal", Input.GetAxisRaw("HorizontalKey"));
             animator.SetFloat("Vertical", Input.GetAxisRaw("VerticalKey"));
-            Debug.Log(Input.GetAxisRaw("VerticalKey"));
+            
         }
 }
