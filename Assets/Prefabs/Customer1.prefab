@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1666803025509795137}
   - component: {fileID: 1666803025509795145}
   m_Layer: 8
-  m_Name: AI Test
+  m_Name: Customer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 869325625140800048, guid: d6a6a166867766a4bb635cb87be7f84a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 70eba3fcf6f95f146a5763e7b4d9b829, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca75c99e50d74472a025fbff07ab240d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 6
+  walkSpeed: 2
 --- !u!50 &1666803025509795139
 Rigidbody2D:
   serializedVersion: 4
@@ -197,5 +197,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e22d80ca942e8bb48a429973aa4ea911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: {fileID: 11400000, guid: fd7c5e5a94c40824698172dc103ce9ec, type: 2}
+  currentState: {fileID: 11400000, guid: 106d24f5b293ec646abeddcb40cfa3f4, type: 2}
   remainState: {fileID: 11400000, guid: 523323595ab9dc84e9396debd093a43c, type: 2}

@@ -38,6 +38,8 @@ protected override void Start()
 
         }
 
+       
+
         public void SetHorizontal(float value)
         {
             horizontalInput = value;
